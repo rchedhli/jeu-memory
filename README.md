@@ -3,7 +3,7 @@ _Ce projet représente un jeu du mémoire.Le jeu dispose de 18 cartes représent
 
 Les étapes du jeu : 
 
-● Le joueur clique sur deux cartes successivement. Si celles-ci sont identiques, la paire est validée. Sinon, les cartes sont e nouveau retournées face cachée, et le joueur doit sélectionner une nouvelle paire de cartes. 
+● Le joueur clique sur deux cartes successivement. Si celles-ci sont identiques, la paire est validée. Sinon, les cartes sont de nouveau retournées face cachée, et le joueur doit sélectionner une nouvelle paire de cartes. 
  
 ● Un compteur de temps, avec une barre de progression, s’affiche en dessous du plateau. 
  
@@ -72,8 +72,7 @@ Si vous sélectionnez tous les paires identiques avant la fin du temps imparti, 
 ## Versions
 
 **Dernière version :** 1.0
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
+
 
 ## Auteurs
 
