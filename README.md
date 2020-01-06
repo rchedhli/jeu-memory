@@ -69,6 +69,10 @@ Si vous dépassez les 6 minutes avant la sélection de tous les paires identique
 Si vous sélectionnez tous les paires identiques avant la fin du temps imparti, le message suivant s'affiche:
 ![alt tag](https://user-images.githubusercontent.com/57545358/71826282-d92fab00-309d-11ea-83cd-bdcd21304f23.PNG)
 
+## Persistence
+L'application jeu memroy utilise une base de données relationnelle SQLite3. 
+
+SQLite3 permet de stocker facilement une base dans un fichier et d'y accéder grâce au langage SQL.
 
 ## Versions
 
