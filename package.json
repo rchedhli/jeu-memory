@@ -1,0 +1,15 @@
+{
+  "name": "jeu-memory",
+  "version": "1.0.0",
+  "description": "O'clock test technique full stack - jeu Memory",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "raja.chedhli@gmail.com",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "sqlite3": "^4.1.1"
+  }
+}
