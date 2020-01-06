@@ -3,13 +3,13 @@ _Ce projet représente un jeu du mémoire.Le jeu dispose de 18 cartes représent
 
 Les étapes du jeu : 
 
-● Le joueur clique sur deux cartes successivement. Si celles-ci sont identiques, la paire est validée. Sinon, les cartes sont de nouveau retournées face cachée, et le joueur doit sélectionner une nouvelle paire de cartes. 
+- Le joueur clique sur deux cartes successivement. Si celles-ci sont identiques, la paire est validée. Sinon, les cartes sont de nouveau retournées face cachée, et le joueur doit sélectionner une nouvelle paire de cartes. 
  
-● Un compteur de temps, avec une barre de progression, s’affiche en dessous du plateau. 
+- Un compteur de temps, avec une barre de progression, s’affiche en dessous du plateau. 
  
-● Le joueur gagne s'il arrive à découvrir toutes les paires au bout de six minutes (360 secondes). 
+- Le joueur gagne s'il arrive à découvrir toutes les paires au bout de six minutes (360 secondes). 
  
-● Chaque temps de partie effectuée avec succés est sauvegardée en base de données. Avant le début du jeu, les meilleurs temps s’affichent à l’écran. 
+- Chaque temps de partie effectuée avec succés est sauvegardée en base de données. Avant le début du jeu, les meilleurs temps s’affichent à l’écran. 
 
 
 ## Pour commencer
@@ -20,7 +20,7 @@ Avant de commencer à utiliser l'application, il faut avoir les pré-requis suiv
 
 - Node JS:
 
-L'installation de Node JS se fait via ce lien : https://nodejs.org/en/download/.
+L'installation de la version 12.14 Node JS se fait via ce lien : https://nodejs.org/en/download/.
 
 - Docker (facultatif):
 
@@ -32,23 +32,19 @@ Il y a deux façons pour installer le jeu du mémoire : Soit d'une façon "manue
 
 _Méthode n°1 (via Docker):_
 
-1 - Récuperer le zip du projet
+1 - Recupérer le projet.
 
-2 - Décompresser le zip.
+2- Exécuter la commande : docker build -t jeu-memory à la racine du projet.
 
-3- Exécuter la commande : docker build -t jeu-memory .
-
-4- Exécuter la commande : docker run -p 4000:4000 -d jeu-memory
+3- Exécuter la commande : docker run -p 4000:4000 -d jeu-memory à la racine du projet.
 
 _Méthode n°2:_
 
-1 - Récuperer le zip du projet
+1 - Recupérer le projet
 
-2 - Décompresser le zip.
+2 - Exécuter la commande : npm install à la racine du projet.
 
-3 - Exécuter la commande npm install à la racine du projet.
-
-4 - Exécuter la commande node app.js à la racine du projet.
+3 - Exécuter la commande : node app.js à la racine du projet.
 
 Pour les deux méthodes, 
 
