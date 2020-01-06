@@ -60,10 +60,12 @@ Le résultat attendu est le suivant :
 Il faut sélectionner tous les paires de cartes identiques avant la fin du temps imparti qui est égale à 6 minutes.
 
 -_Cas Jeu perdu_:
+
 Si vous dépassez les 6 minutes avant la sélection de tous les paires identiques, le message suivant s'affiche.
 ![alt tag](https://user-images.githubusercontent.com/57545358/71826108-83f39980-309d-11ea-8d11-b692cc05ec0a.PNG)
 
 -_Cas Jeu gagné_:
+
 Si vous sélectionnez tous les paires identiques avant la fin du temps imparti, le message suivant s'affiche:
 ![alt tag](https://user-images.githubusercontent.com/57545358/71826282-d92fab00-309d-11ea-83cd-bdcd21304f23.PNG)
 
