@@ -52,7 +52,7 @@ Pour les deux méthodes,
 
 Le résultat attendu est le suivant :
 
-![alt tag](https://user-images.githubusercontent.com/57545358/71786702-c0c47f80-300e-11ea-8844-f6e91c21e844.PNG)
+![alt tag](https://user-images.githubusercontent.com/57545358/71825160-89e87b00-309b-11ea-8cc9-bdec46feeece.PNG)
 
 
 ## Démarrage
