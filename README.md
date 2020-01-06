@@ -34,17 +34,17 @@ _Méthode n°1 (via Docker):_
 
 1 - Recupérer le projet.
 
-2- Exécuter la commande : docker build -t jeu-memory à la racine du projet.
+2- Exécuter la commande à la racine du projet: "docker build -t jeu-memory ."
 
-3- Exécuter la commande : docker run -p 4000:4000 -d jeu-memory à la racine du projet.
+3- Exécuter la commande à la racine du projet: "docker run -p 4000:4000 -d jeu-memory" 
 
 _Méthode n°2:_
 
 1 - Recupérer le projet
 
-2 - Exécuter la commande : npm install à la racine du projet.
+2 - Exécuter la commande à la racine du projet : "npm install".
 
-3 - Exécuter la commande : node app.js à la racine du projet.
+3 - Exécuter la commande à la racine du projet : "node app.js".
 
 Pour les deux méthodes, 
 
