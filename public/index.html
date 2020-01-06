@@ -1,0 +1,90 @@
+<html>
+  <head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<title>Jeu de mémoire</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="scripts/common.js"></script>
+	
+  </head>
+ 
+  <body>
+	<div class="div_conteneur_parent">
+	<!-- Titre de la page -->
+	<div class="titre_page"><h1>Jeu de m&eacute;moire</h1></div>
+	<div class="div_conteneur_page">
+	<div>
+	<!-- Tableau contenant les cartes de fruits -->
+		<table align=center  class=table>
+			<tbody id=tabCarte>
+				<tr>
+					<td id="0" onclick="jouer(this)" class=Back></td>
+					<td id="1" onclick="jouer(this)" class=Back></td>
+					<td id="2" onclick="jouer(this)" class=Back></td>
+					<td id="3" onclick="jouer(this)" class=Back></td>
+					<td id="4" onclick="jouer(this)" class=Back></td>
+					<td id="5" onclick="jouer(this)" class=Back></td>
+				</tr>
+				<tr>
+					<td id="6" onclick="jouer(this)" class=Back></td>
+					<td id="7" onclick="jouer(this)" class=Back></td>
+					<td id="8" onclick="jouer(this)" class=Back></td>
+					<td id="9" onclick="jouer(this)" class=Back></td>
+					<td id="10" onclick="jouer(this)" class=Back></td>
+					<td id="11" onclick="jouer(this)" class=Back></td>
+				</tr>
+				<tr>
+					<td id="12" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="13" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="14" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="15" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="16" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="17" onclick="jouer(this)" class=Back>&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="18" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="19" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="20" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="21" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="22" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="23" onclick="jouer(this)" class=Back>&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="24" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="25" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="26" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="27" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="28" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="29" onclick="jouer(this)" class=Back>&nbsp;</td>
+				</tr>
+				<tr>
+					<td id="30" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="31" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="32" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="33" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="34" onclick="jouer(this)" class=Back>&nbsp;</td>
+					<td id="35" onclick="jouer(this)" class=Back>&nbsp;</td>
+				</tr>
+			</tbody>
+
+		</table>
+		<!-- Section meilleurs scores -->
+		<div id="scores" class="scores">
+			<span id="scores-titre" class="scores-titre"><b>Meilleurs scores : </b><br />
+			<p id="score1" ></p>
+			<p id="score2" ></p>
+			<p id="score3" ></p>
+		</div>
+   
+    </div>
+
+	   <!-- progress bar-->
+		<div id="progressbar" class="center-div" width="50%">
+			<div id="indicator"></div>
+		</div>
+
+	</div>
+	
+	</div>
+
+  </body>
+</html>
